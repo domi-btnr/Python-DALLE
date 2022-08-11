@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Python-DALLE"
+version = "1.0.0"
+authors = [
+  { name="HypedDomi", email="domi@bambus.me" },
+]
+description = "Python library for interacting with OpenAI's Dall-E 2 AI"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "requests ~= 2.28.1"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HypedDomi/Python-DALLE"
+"Bug Tracker" = "https://github.com/HypedDomi/Python-DALLE/issues"
