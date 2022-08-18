@@ -1,4 +1,4 @@
-<h1 align="center">Python DALL E</h1>
+<h1 align="center">Python DALL E <img src="https://img.shields.io/pypi/dm/Python-DALLE.svg"/></h1>
 
 <p align="center">
 Python library for interacting with <a href="https://openai.com/dall-e-2/">OpenAI's Dall-E 2 AI</a>
