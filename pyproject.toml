@@ -10,7 +10,7 @@ authors = [
 ]
 description = "Python library for interacting with OpenAI's Dall-E 2 AI"
 readme = "README.md"
-license = { file="LICENSE" }
+license = "MIT"
 requires-python = ">=3.7"
 dependencies = [
     "requests ~= 2.28.1"
