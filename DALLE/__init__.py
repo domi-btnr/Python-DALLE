@@ -17,7 +17,7 @@ class DALLE:
         response = requests.post(self.base_url, headers=self.headers, json=body)
         
         if not response.ok:
-            raise Exception("Dall-E 2 couldn't generate images based upon your caption")
+            raise Exception("Unauthorized. Invalid unique session ID")
         
         data = response.json()
         taskId = data["id"]
@@ -31,4 +31,4 @@ class DALLE:
                 return data["status_information"]
             elif data["status"] == "succeeded":
                 return data["generations"]["data"]
-            await asyncio.sleep(5)
+            await asyncio.sleep(3)
